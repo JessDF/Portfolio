@@ -1,0 +1,67 @@
+img {
+    max-width: 100%;
+}
+#pics {
+	height: 200px;
+}
+
+.header-info {
+    text-align: right;
+}
+
+.separator {
+    border-top: 4px solid #7d97ad;
+}
+
+#header-name {
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+#header-job {
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.header-image {
+    margin-top: 1%;
+    display: block;
+}
+
+.header-info {
+    margin-top: 10px;
+}
+
+.featured-work {
+    color: #7d97ad;
+    text-transform: uppercase;
+}
+
+.center {
+    text-align: center;
+}
+
+.footer {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+/*For viewport widths 990px and lower*/
+@media only screen and (max-width: 991px) {
+img {
+    padding-bottom: 10px;
+}
+
+.featured-work {
+    text-align: center;
+}
+
+.header-info {
+    text-align: center;
+}
+
+.header-image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}}
