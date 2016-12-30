@@ -1,7 +1,8 @@
+
 img {
     max-width: 100%;
 }
-#pics {
+.pic1, .pic2, .pic3 {
 	height: 200px;
 }
 
@@ -44,6 +45,7 @@ img {
 .footer {
     padding-top: 10px;
     padding-bottom: 15px;
+	display:inline-block;
 }
 
 /*For viewport widths 990px and lower*/
